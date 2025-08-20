@@ -25,7 +25,8 @@ const Search = styled('div')(({ theme }) => ({
   backgroundColor: alpha(theme.palette.background.paper, 0.15),
   border: `1px solid ${theme.palette.divider}`,
   '&:hover': {
-    backgroundColor: alpha(theme.palette.background.paper, 0.25),
+    border : `1px solid #333`,
+    //backgroundColor: alpha(theme.palette.background.paper, 0.25),
   },
   marginRight: theme.spacing(2),
   marginLeft: 0,
